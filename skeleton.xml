@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.1" method="upgrade">
+    <name>com_skeleton</name>
+    <author>Luu Hoang Nam</author>
+    <creationDate>August 2014</creationDate>
+    <copyright>(C) 2005 - 2014 Open Source Matters. All rights reserved.	</copyright>
+    <license>GNU General Public License version 2 or later; see	LICENSE.txt</license>
+    <authorEmail>hoangnam0705@icloud.com</authorEmail>
+    <authorUrl>http://luuhoangnam.com</authorUrl>
+    <version>0.0.1</version>
+    <description>COM_SKELETON_DESCRIPTION</description>
+    <files folder="site">
+        <filename>controller.php</filename>
+        <filename>index.html</filename>
+        <filename>skeleton.php</filename>
+        <folder>views</folder>
+    </files>
+    <languages folder="site">
+        <language tag="en-GB">language/en-GB.com_skeleton.ini</language>
+    </languages>
+    <administration>
+        <files folder="admin">
+            <filename>index.html</filename>
+        </files>
+        <languages folder="admin">
+            <language tag="en-GB">language/en-GB.com_skeleton.sys.ini</language>
+        </languages>
+    </administration>
+</extension>
