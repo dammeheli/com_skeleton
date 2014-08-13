@@ -6,9 +6,9 @@ defined('_JEXEC') or die('Restricted access');
 jimport('joomla.database.table');
 
 /**
- * Hello Table class
+ * Stuff Table class
  */
-class HelloWorldTableHelloWorld extends JTable
+class SkeletonTableStuff extends JTable
 {
     /**
      * Constructor
@@ -17,6 +17,6 @@ class HelloWorldTableHelloWorld extends JTable
      */
     public function __construct($db)
     {
-        parent::__construct('#__helloworld', 'id', $db);
+        parent::__construct('#__skeleton', 'id', $db);
     }
 }

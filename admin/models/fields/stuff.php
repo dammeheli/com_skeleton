@@ -7,16 +7,16 @@ jimport('joomla.form.helper');
 JFormHelper::loadFieldClass('list');
 
 /**
- * Skeleton Form Field class for the Skeleton component
+ * Stuff Form Field class for the Skeleton component
  */
-class JFormFieldSkeleton extends JFormFieldList
+class JFormFieldStuff extends JFormFieldList
 {
     /**
      * The field type.
      *
      * @var         string
      */
-    protected $type = 'Skeleton';
+    protected $type = 'Stuff';
 
     /**
      * Method to get a list of options for a list input.

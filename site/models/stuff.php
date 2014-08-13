@@ -6,9 +6,9 @@ defined('_JEXEC') or die('Restricted access');
 jimport('joomla.application.component.modelitem');
 
 /**
- * Skeleton Model
+ * Stuff Model
  */
-class SkeletonModelSkeleton extends JModelItem
+class SkeletonModelStuff extends JModelItem
 {
     /**
      * @var string msg
@@ -25,7 +25,7 @@ class SkeletonModelSkeleton extends JModelItem
      * @return      JTable  A database object
      * @since       2.5
      */
-    public function getTable($type = 'Skeleton', $prefix = 'SkeletonTable', $config = [])
+    public function getTable($type = 'Stuff', $prefix = 'SkeletonTable', $config = [])
     {
         return JTable::getInstance($type, $prefix, $config);
     }
@@ -37,7 +37,7 @@ class SkeletonModelSkeleton extends JModelItem
     public function getMsg()
     {
         if (!isset($this->msg)) {
-            $this->msg = 'Skeleton!';
+            $this->msg = 'Stuff!';
         }
         return $this->msg;
     }
